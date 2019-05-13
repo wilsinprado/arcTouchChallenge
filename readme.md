@@ -16,12 +16,12 @@ To access the project from heroku open [https://polar-waters-94846.herokuapp.com
 
 ## Architecture
 
-    ??? app                                      # Source files
-        ??? Htttp                                # Source files
-            ??? Controllers                      # Source files
-                ??? MovieController.php          # Controller reponsible to respond the api requests
-    ??? routes                                   # Source files
-        ??? web.php                              # File that contains the application routes
+    ├── app                                      # Source files
+        ├── Htttp                                # Source files
+            ├── Controllers                      # Source files
+                ├── MovieController.php          # Controller reponsible to respond the api requests
+    ├── routes                                   # Source files
+        ├── web.php                              # File that contains the application routes
                 
                 
 ## Third-party libs
