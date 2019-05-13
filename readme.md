@@ -1,21 +1,33 @@
-# Lumen PHP Framework
+This project was bootstrapped with [Create Lumen App](https://lumen.laravel.com/docs/5.8).
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+## Available Scripts
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+In the project directory, you can run:
 
-## Official Documentation
+### `php -S localhost:8000 -t public`
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+Runs the app in the development mode.<br>
+Open [http://localhost:8000](http://localhost:3000) to view it in the browser.
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## Heroku
 
-## License
+To access the project from heroku open [https://polar-waters-94846.herokuapp.com]
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Architecture
+
+    ??? app                                      # Source files
+        ??? Htttp                                # Source files
+            ??? Controllers                      # Source files
+                ??? MovieController.php          # Controller reponsible to respond the api requests
+    ??? routes                                   # Source files
+        ??? web.php                              # File that contains the application routes
+                
+                
+## Third-party libs
+
+In this project i used
+
+### `guzzlehttp/guzzle`
+
+To facilitate http requests
