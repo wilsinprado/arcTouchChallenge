@@ -17,8 +17,8 @@ $router->get('/', function () use ($router) {
 
 $router->group(['prefix' => 'api'], function () use ($router) {
 
-    $router->get('movies', ['uses' => 'MovieController@findAll']);
-    $router->get('movies/{id}', ['uses' => 'MovieController@findOne']);
+    $router->get('movies/{page}', ['uses' => 'MovieController@findAll']);
+    $router->get('movie/{id}', ['uses' => 'MovieController@findOne']);
 
 });
 
