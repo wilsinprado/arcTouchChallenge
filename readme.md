@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create Lumen App](https://lumen.laravel.com/docs/5.8).
 
+
+First run composer install
+
 ## Available Scripts
 
 In the project directory, you can run:
